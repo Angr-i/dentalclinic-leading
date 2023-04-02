@@ -272,6 +272,7 @@ button, input[type=submit] {
 }
 
 .doctor-subtitle {
+  max-width: 1066px;
   font-weight: 600;
   font-size: 28px;
   line-height: 140%;
@@ -392,6 +393,67 @@ button, input[type=submit] {
   opacity: 6;
   /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
+}
+
+.doctor-footer {
+  margin-top: 153px;
+}
+
+.doctor-footer-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 45px;
+  /* c1 */
+  color: #099DBA;
+}
+.doctor-footer-title span {
+  color: #046DBF;
+}
+
+.doctor-footer-cards {
+  justify-content: center;
+  margin-top: 45px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.doctor-footer-card {
+  text-align: center;
+  width: 190px;
+  height: 130px;
+  border-radius: 20px;
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+}
+.doctor-footer-card:hover {
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  background-color: #BDF8F9;
+}
+.doctor-footer-card:hover .doctor-footer-card-title {
+  color: #fff;
+}
+.doctor-footer-card:hover .doctor-footer-card-img {
+  transition: color 0.2s ease-in, background-color 0.2s ease-in;
+  color: #fff;
+  background-color: #fff;
+}
+
+.doctor-footer-card-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #099DBA;
+}
+
+.doctor-footer-card-img {
+  margin-left: 33px;
+  height: 124px;
+  width: 124px;
+  border-radius: 50%;
+  background: #BDF8F9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .header {
