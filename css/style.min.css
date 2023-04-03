@@ -1226,7 +1226,7 @@ button, input[type=submit] {
   font-size: 28px;
   line-height: 120%;
   text-align: center;
-  max-width: 514px;
+  max-width: 410px;
 }
 
 .signup-subtitle {
@@ -1235,7 +1235,7 @@ button, input[type=submit] {
   line-height: 29px;
   text-align: center;
   color: #099DBA;
-  max-width: 410px;
+  max-width: 365px;
 }
 
 .signup-form {
