@@ -131,6 +131,72 @@ button, input[type=submit] {
   cursor: pointer;
 }
 
+.aboutclinic {
+  margin-top: 144px;
+}
+
+.aboutclinic-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutclinic-title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.aboutclinic-subtitle {
+  margin-top: 30px;
+  max-width: 1000px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  color: #099DBA;
+}
+
+.aboutclinic-header-img img {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.aboutclinic-header {
+  margin-top: 30px;
+  display: flex;
+}
+
+.aboutclinic-header-title {
+  margin-right: 30px;
+  max-width: 631px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+}
+
+.aboutclinic-header-lists li {
+  max-width: 550px;
+  display: flex;
+  align-items: center;
+  list-style: url(../img/license/liststyle.png);
+  margin-top: 24px;
+}
+
+.aboutclinic-sliders {
+  display: flex;
+  column-gap: 30px;
+}
+
+.aboutclinic-slider-img {
+  margin-top: 44px;
+}
+.aboutclinic-slider-img img {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
 .btn {
   transition: background-color 0.2s ease-in;
 }
@@ -560,6 +626,44 @@ button, input[type=submit] {
   color: #099DBA;
 }
 
+.license {
+  margin-top: 84px;
+}
+
+.license-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.license-title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.license-subtitle {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 140%;
+  text-align: center;
+  color: #099DBA;
+  margin-top: 30px;
+  max-width: 1066px;
+}
+
+.license-sliders {
+  margin-top: 30px;
+  display: flex;
+  column-gap: 30px;
+}
+
+.license-slider-img img {
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
 .nav {
   margin-top: 30px;
 }
@@ -727,6 +831,12 @@ button, input[type=submit] {
 .reviews-about img {
   height: 28px;
   width: 28px;
+}
+
+.reviews-about {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
 }
 
 .services {
@@ -1084,6 +1194,71 @@ button, input[type=submit] {
 .shares-card__btn:hover {
   transition: background 0.2s ease-in;
   background: rgb(255, 255, 255);
+}
+
+.signup {
+  margin-top: 144px;
+  background-image: url(../img/signup/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover 500px;
+}
+
+.signup-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.signup-block {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px 25px;
+  margin-top: 26px;
+  background-color: #F3FEFE;
+  /* medium */
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.signup-title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  max-width: 514px;
+}
+
+.signup-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #099DBA;
+  max-width: 410px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+}
+.signup-form input {
+  text-align: center;
+  background: #FFFFFF;
+  border: 2px solid #BDF8F9;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  padding: 9px 100px;
+  margin-top: 20px;
+}
+
+.signup-form-button {
+  margin-top: 20px;
+  padding: 9px 100px;
+  background: #046DBF;
+  color: #FFFFFF;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
 }
 
 .videotube-modal-overlay {
