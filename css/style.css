@@ -522,6 +522,33 @@ button, input[type=submit] {
   justify-content: center;
 }
 
+.footer {
+  margin-top: 34px;
+}
+
+.footer-nav {
+  align-items: center;
+  display: flex;
+  column-gap: 30px;
+  color: #099DBA;
+}
+
+.footer-title {
+  max-width: 190px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #099DBA;
+  margin-right: 223px;
+}
+
+.footer-block {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #099DBA;
+}
+
 .header {
   background-image: url(../img/header/bg-header.jpg);
   background-repeat: no-repeat;
@@ -662,6 +689,97 @@ button, input[type=submit] {
 .license-slider-img img {
   box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
   border-radius: 20px;
+}
+
+.map {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.map-img {
+  text-align: center;
+}
+
+.map-header {
+  position: absolute;
+}
+
+.map-header {
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 327px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.map-header {
+  background: #099DBA;
+  opacity: 0.9;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 60px;
+  padding-right: 140px;
+}
+
+.map-header-title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 120%;
+}
+
+.map-header-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 16px;
+}
+.map-header-subtitle p {
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  max-width: 338px;
+}
+.map-header-subtitle span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 140%;
+  color: #046DBF;
+}
+
+.map-header-clock {
+  margin-top: 12px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.map-header-clock p {
+  margin-top: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.map-header-number {
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 140%;
+  color: #FFFFFF;
+}
+
+.map-header-social {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.map-header-social img {
+  margin-right: 9px;
 }
 
 .nav {
@@ -1194,6 +1312,14 @@ button, input[type=submit] {
 .shares-card__btn:hover {
   transition: background 0.2s ease-in;
   background: rgb(255, 255, 255);
+}
+
+.shares-card-modal {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 .signup {
