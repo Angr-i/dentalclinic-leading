@@ -1009,6 +1009,10 @@ button, input[type=submit] {
 .nav-logo {
   margin-right: 15px;
 }
+.nav-logo img {
+  height: 86px;
+  width: 86px;
+}
 
 .nav-row {
   display: flex;
