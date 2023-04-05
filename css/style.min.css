@@ -1560,7 +1560,31 @@ button, input[type=submit] {
     background-color: initial;
   }
 }
+.nav-prewiwer {
+  display: flex;
+}
+
+.navigation-block--menu {
+  display: none;
+}
+
 @media only screen and (max-width: 450px) {
+  .navigation-block--menu {
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+  .navigation-list {
+    display: none;
+  }
+  .show {
+    display: block;
+  }
+  .navigation-block--menu {
+    display: block;
+  }
+  .nav-row {
+    flex-direction: column;
+  }
   .services-title {
     font-size: 20px;
   }

@@ -12,11 +12,17 @@
  <nav class="nav">
   <div class="conteiner">
     <div class="nav-row">
-      <div class="nav-logo">
-        <img src="img/nav-bar/icon-nav.svg" alt="Logo">
+      <div class="nav-prewiwer">
+        <div class="nav-logo">
+          <img src="img/nav-bar/icon-nav.svg" alt="Logo">
+        </div>
+        <div class="navigation-block navigation-block--menu">
+          <button easy-toggle="#main_menu" easy-class="show"><img src="img/nav-bar/menu.png" alt=""></button>
+        </div>
       </div>
-      <div class="navigation-list">
+      <div class="navigation-list" id="main_menu">
         <ul>
+
           <li class="navigation-block"><span class="nav-title">Cтоматологічна клініка</span></li>
           <li class="navigation-block">
             <div class="li-tile">
@@ -1015,8 +1021,12 @@
 
 </footer>
 
+ <script src="https://cdn.jsdelivr.net/npm/easy-toggler@2.2.7"></script>
+ <script type="module">
+    const easySetup = require("easy-toggler");
+    easySetup();
+ </script>
  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
  <script src="js/app.min.js"></script>
- 
 </body>
 </html>
