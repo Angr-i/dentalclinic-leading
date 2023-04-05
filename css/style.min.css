@@ -87,6 +87,18 @@ a {
   padding: 0;
 }
 
+@media only screen and (max-width: 1024px) {
+  .conteiner {
+    max-width: 984px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .conteiner {
+    max-width: 280px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 * {
   background-repeat: no-repeat;
 }
@@ -197,6 +209,25 @@ button, input[type=submit] {
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .aboutclinic-title {
+    font-size: 36px;
+  }
+  .aboutclinic-subtitle {
+    font-size: 28px;
+  }
+  .aboutclinic-header-img img {
+    max-width: 482px;
+    max-height: 300px;
+  }
+  .aboutclinic-header-lists img {
+    display: none;
+  }
+  .aboutclinic-slider img {
+    max-width: 231px;
+    max-height: 154px;
+  }
+}
 .btn {
   transition: background-color 0.2s ease-in;
 }
@@ -277,6 +308,62 @@ button, input[type=submit] {
   line-height: 29px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .consultation {
+    margin-top: 90px;
+  }
+  .consultation-subtitle {
+    font-size: 24px;
+  }
+  .consultation-card__img img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.05);
+  }
+  .consultation-cards__title {
+    font-size: 22px;
+    line-height: 27px;
+    max-width: 300px;
+  }
+  .consultation-cards__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .consultation__btn {
+    padding: 15px 134px;
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+.consultation-title {
+  text-align: center;
+}
+
+.consultation-subtitle {
+  text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+  .consultation-cards {
+    flex-direction: column;
+  }
+  .consultation-title {
+    font-size: 20px;
+  }
+  .consultation-subtitle {
+    font-size: 16px;
+  }
+  .consultation-card {
+    text-align: center;
+  }
+  .consultation__btn {
+    padding: 15px 74px;
+  }
+  .consultation-card__img img {
+    max-width: 230px;
+  }
+}
 .doctor {
   margin-top: 90px;
 }
@@ -522,8 +609,47 @@ button, input[type=submit] {
   justify-content: center;
 }
 
+.doctor-subtitle {
+  margin-top: 30px;
+}
+
+.doctor-header {
+  margin-top: 66px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .doctor-title {
+    font-size: 36px;
+  }
+  .doctor-subtitle {
+    font-size: 28px;
+  }
+  .doctor-card-title {
+    font-size: 20px;
+  }
+  .doctor-card-subtitle {
+    font-size: 16px;
+  }
+  .doctor-slider-title {
+    font-size: 24px;
+  }
+  .doctor-slider-subtitle {
+    font-size: 20px;
+  }
+  .doctor-slider {
+    background-size: 250px 320px;
+    background-position: center;
+  }
+  .doctor-footer-cards {
+    flex-wrap: wrap;
+  }
+  .doctor-footer-card {
+    margin-top: 30px;
+  }
+}
 .footer {
   margin-top: 34px;
+  max-width: auto;
 }
 
 .footer-nav {
@@ -653,6 +779,69 @@ button, input[type=submit] {
   color: #099DBA;
 }
 
+@media only screen and (max-width: 1024px) {
+  .header {
+    background-size: auto 374px;
+  }
+  .header-title {
+    font-size: 36px;
+    max-width: 628px;
+  }
+  .header-subtitle {
+    font-size: 24px;
+  }
+  .header-preview p {
+    font-size: 24px;
+    margin-top: 30px;
+  }
+  .header-preview {
+    display: flex;
+    align-items: flex-end;
+  }
+  .header-btn {
+    margin-top: 0;
+  }
+  .header-button {
+    margin-bottom: 20px;
+  }
+  .header-card {
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 21px;
+    padding-bottom: 41px;
+    text-align: center;
+    display: block;
+  }
+  .card-title {
+    font-size: 21px;
+    margin-bottom: 20px;
+  }
+  .header-card-text p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .header-title {
+    font-size: 20px;
+  }
+  .header-subtitle {
+    font-size: 16px;
+  }
+  .header-preview p {
+    font-size: 16px;
+  }
+  .header-button {
+    margin-top: 40px;
+  }
+  .header-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .header-card {
+    margin-top: 30px;
+    max-width: 230px;
+  }
+}
 .license {
   margin-top: 84px;
 }
@@ -691,6 +880,18 @@ button, input[type=submit] {
   border-radius: 20px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .license-title {
+    font-size: 36px;
+  }
+  .license-subtitle {
+    font-size: 28px;
+  }
+  .license-slider-img img {
+    max-width: 231px;
+    max-height: 308px;
+  }
+}
 .map {
   display: flex;
   position: relative;
@@ -751,6 +952,10 @@ button, input[type=submit] {
   color: #046DBF;
 }
 
+.map-img img {
+  max-height: 540px;
+}
+
 .map-header-clock {
   margin-top: 12px;
   font-weight: 500;
@@ -782,6 +987,21 @@ button, input[type=submit] {
   margin-right: 9px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .map-header {
+    margin-left: 20px;
+  }
+  .footer-title {
+    margin-right: 0;
+  }
+  .footer-icon img {
+    max-width: 86.94px;
+    max-height: 86.44px;
+  }
+  .footer-nav {
+    column-gap: 8px;
+  }
+}
 .nav {
   margin-top: 30px;
 }
@@ -872,6 +1092,54 @@ button, input[type=submit] {
   color: #33D9DA;
 }
 
+@media only screen and (max-width: 1024px) {
+  .nav {
+    margin-top: 28px;
+  }
+  .nav-logo img {
+    max-width: 73.15px;
+    max-height: 72.38px;
+  }
+  .nav-title {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  .nav-titleicon {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .li-subtile {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .nav-icons-social {
+    display: flex;
+  }
+  .nav-icons-social img {
+    width: 28px;
+    height: 28px;
+  }
+  .navigation-contackt {
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.025em;
+  }
+  .nav-icons-social {
+    margin-left: 30px;
+  }
+  .navigation-block {
+    margin-left: 13px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .navigation-list ul {
+    flex-direction: column;
+  }
+  .header-preview {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .reviews {
   margin-top: 90px;
 }
@@ -957,6 +1225,22 @@ button, input[type=submit] {
   margin-top: 30px;
 }
 
+.reviews-slider-header {
+  display: flex;
+}
+
+@media only screen and (max-width: 1024px) {
+  .reviews-title {
+    font-size: 36px;
+  }
+  .reviews-subtitle {
+    font-size: 28px;
+  }
+  .reviews-slider-subtitle {
+    max-width: 238px;
+    font-size: 18px;
+  }
+}
 .services {
   margin-top: 144px;
 }
@@ -1248,6 +1532,99 @@ button, input[type=submit] {
   justify-content: center;
 }
 
+@media only screen and (max-width: 1024px) {
+  .services-subtitle {
+    margin-top: 30px;
+  }
+  .services-card {
+    width: auto;
+    height: 500px;
+  }
+  .services-foter-header {
+    display: block;
+  }
+  .services-foter-title {
+    font-size: 28px;
+  }
+  .services-foter-blok:nth-child(2), .services-foter-blok:nth-child(3), .services-foter-blok:nth-child(4) {
+    margin-left: 0;
+  }
+  .services-foter-blok__text {
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .services-foter-blok__text {
+    max-width: 570px;
+  }
+  .services-foter-blok__number {
+    background-color: initial;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .services-title {
+    font-size: 20px;
+  }
+  .services-subtitle {
+    font-size: 18px;
+  }
+  .services-card__title {
+    font-size: 20px;
+  }
+  .services-card {
+    background-size: 100px;
+  }
+  .services-card__subtitle {
+    font-size: 18px;
+  }
+  .services-card__list ul li {
+    font-size: 18px;
+  }
+  .card-foter__img {
+    display: none;
+  }
+  .card-foter__button {
+    margin-left: 0;
+  }
+  .card-foter-button {
+    text-align: center;
+  }
+  .card-foter__button {
+    margin-bottom: 20px;
+  }
+  .services-card {
+    height: auto;
+  }
+  .services-cards {
+    margin-bottom: 30px;
+  }
+  .services-foter-title {
+    font-size: 20px;
+  }
+  .services-foter-video img {
+    max-width: 280px;
+  }
+  .services-foter-header {
+    padding: 0;
+  }
+  .services-foter-about {
+    display: none;
+  }
+  .doctor, .reviews, .license, .aboutclinic, .signup, .concact, .map, .footer {
+    display: none;
+  }
+  .services-foter-list ul li {
+    font-size: 16px;
+  }
+  .header {
+    background-image: url(../img/header/bg.png);
+    background-size: 450px;
+  }
+  .services-foter-title {
+    margin-top: 30px;
+    text-align: center;
+    max-width: 209px;
+  }
+}
 .shares {
   margin-top: 90px;
 }
@@ -1322,6 +1699,46 @@ button, input[type=submit] {
   right: 0;
 }
 
+.shares-card__btn {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #099DBA;
+}
+
+@media only screen and (max-width: 1024px) {
+  .shares-title {
+    font-size: 36px;
+  }
+  .shares-subtitle {
+    font-size: 28px;
+  }
+  .shares-card {
+    max-width: 300px;
+    max-height: 300px;
+    background-size: cover;
+  }
+  .shares-card:first-child {
+    margin-left: 30px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .shares-title {
+    font-size: 20px;
+  }
+  .shares-subtitle {
+    font-size: 18px;
+  }
+  .shares-cards {
+    flex-direction: column;
+  }
+  .shares-card {
+    margin-top: 30px;
+  }
+  .shares-card:first-child {
+    margin-left: 0;
+  }
+}
 .signup {
   margin-top: 144px;
   background-image: url(../img/signup/bg.jpg);
@@ -1387,6 +1804,18 @@ button, input[type=submit] {
   border-radius: 30px;
 }
 
+.signup-title {
+  color: #046DBF;
+}
+
+@media only screen and (max-width: 1024px) {
+  .signup-title {
+    font-size: 28px;
+  }
+  .signup-subtitle {
+    font-size: 24px;
+  }
+}
 .videotube-modal-overlay {
   color: #fff;
   display: none;
